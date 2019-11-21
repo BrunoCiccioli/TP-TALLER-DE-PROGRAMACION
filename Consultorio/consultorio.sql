@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 21-11-2019 a las 04:29:37
--- Versión del servidor: 10.4.6-MariaDB
--- Versión de PHP: 7.3.9
+-- Tiempo de generación: 21-11-2019 a las 18:14:25
+-- Versión del servidor: 10.3.16-MariaDB
+-- Versión de PHP: 7.3.7
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -43,9 +43,19 @@ CREATE TABLE `consultorio` (
 INSERT INTO `consultorio` (`Documento`, `Nombre`, `Apellido`, `Mutual`, `Consulta`) VALUES
 ('20548935', 'Josefina', 'Ayala', 'GALENO', 'CHEQUEO RUTINARIO'),
 ('21544547', 'Omar ', 'Ciccioli', 'OSDE', 'CHEQUEO'),
+('24596327', 'Jose', 'Perez', 'SM', 'Progamacion de Operacion'),
+('25455987', 'Daniel', 'Gentiloski', 'GALENO', 'CHEQUEO'),
+('26874594', 'Diego', 'Lucero', 'GALENO', 'CHEQUEO'),
+('27589651', 'Antonella', 'Rocuzzo', 'OSDE', 'CHEQUEO'),
+('27589658', 'Valentin', 'Olvia', 'SM', 'CHEQUEO'),
+('32159664', 'Marcos', 'DiPalma', 'PAMI', 'Programacion de turno'),
 ('32987458', 'Marcos', 'Leon', 'SM', 'CHEQUEO'),
+('34544597', 'Lionel ', 'Messi', 'GALENO', 'CHEQUEO'),
 ('34987421', 'Adriana', 'Frigerio', 'PAMI', 'Programacion de Operacion'),
-('41098711', 'Bruno', 'Ciccioli', 'OSDE', 'Se realizo chequeos varios. Todo ok');
+('35647851', 'Marcelo', 'Alvear', 'PAMI', 'CHEQUEO'),
+('41098711', 'Bruno', 'Ciccioli', 'OSDE', 'Se realizo chequeos varios. Todo ok'),
+('41098725', 'Andrea', 'Roca', 'OSDE', 'CHEQUEO'),
+('41125758', 'Alejandra', 'Sosa', 'PAMI', 'CHEQUEO');
 
 --
 -- Índices para tablas volcadas
