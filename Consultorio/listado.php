@@ -31,7 +31,7 @@
     td {color:black;}
     table,th,td 
     {
-     border: 10px solid black;
+     border: 2px solid black;
     text-align: center;
     }
 
